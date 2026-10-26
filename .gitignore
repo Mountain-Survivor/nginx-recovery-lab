@@ -11,3 +11,5 @@ data/
 tmp/
 *.bak
 /secrets/
+__pycache__/
+.venv/
