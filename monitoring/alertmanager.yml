@@ -9,3 +9,6 @@ receivers:
     discord_configs:
       - webhook_url_file: /run/secrets/discord-webhook-url
         send_resolved: true
+    webhook_configs:
+      - url : http://host.docker.internal:8001/alerts
+        send_resolved: false
